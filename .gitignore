@@ -1,0 +1,36 @@
+# Input directory and all its contents
+input/
+input/*
+
+# Output directory and all its contents
+output/
+output/*
+
+# Any temporary files that might be created
+**/temp/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.py[cod]
+*$py.class
+
+# Environment directories
+venv/
+env/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
